@@ -6,7 +6,6 @@ import com.teknoserval.advancedmod.init.ModBlocks;
 import com.teknoserval.advancedmod.init.ModItems;
 import com.teknoserval.advancedmod.item.ModItem;
 import com.teknoserval.advancedmod.utility.IHasModel;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
