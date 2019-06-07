@@ -18,14 +18,13 @@ public class ModBlock extends Block implements IHasModel {
 	public ModBlock(Material material) {
 
 		super(material);
-/*
-		String name = "";
+		String name = "base_block";
 		setUnlocalizedName(name);
 		setRegistryName(name);
-*/		setCreativeTab(ModCreativeTab.ADVANCED_TAB);
+		setCreativeTab(ModCreativeTab.ADVANCED_TAB);
 
-//		ModBlocks.BLOCKS.add(this);
-//		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+		ModBlocks.BLOCKS.add(this);
+		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 
 	}
 
