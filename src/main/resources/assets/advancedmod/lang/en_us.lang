@@ -4,10 +4,11 @@ item.base_item.name=Maple Leaf
 
 
 //Blocks
-tile.base_block.name=Green Poop Block
+tile.green_poop_block.name=Green Poop Block
+tile.blue_poop_block.name=Blue Poop Block
 
 //Creative Tabs
-itemGroup.letsmodreboot=Advanced Mod
+itemGroup.advancedmod=Advanced Mod
 
 //Keybindings
 keys.letsmodreboot.category=Let's Mod Reboot

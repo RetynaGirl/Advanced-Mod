@@ -2,6 +2,6 @@
 {
    "parent": "block/cube_all",
    "textures": {
-       "all": "advancedmod:blocks/base_block"
+       "all": "advancedmod:blocks/green_poop_block"
    }
 }
