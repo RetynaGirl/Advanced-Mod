@@ -1,0 +1,15 @@
+
+//Items
+item.base_item.name=Maple Leaf
+
+
+//Blocks
+tile.base_block.name=Green Poop Block
+
+//Creative Tabs
+itemGroup.letsmodreboot=Advanced Mod
+
+//Keybindings
+keys.letsmodreboot.category=Let's Mod Reboot
+keys.letsmodreboot.charge=Charge
+keys.letsmodreboot.release=Release
