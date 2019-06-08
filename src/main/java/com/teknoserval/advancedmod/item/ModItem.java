@@ -9,24 +9,21 @@ import com.teknoserval.advancedmod.AdvancedMod;
 public class ModItem extends Item implements IHasModel {
 
 	public ModItem() {
-		
-		
+
 		String name = "base_item";
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(ModCreativeTab.ADVANCED_TAB);
-		
+
 		ModItems.ITEMS.add(this);
-		
+
 	}
-	
+
 	@Override
 	public void registerModels() {
 
 		AdvancedMod.proxy.registerItemRenderer(this, 0, "inventory");
-		
+
 	}
-	
+
 }
-	
-	

@@ -16,8 +16,6 @@ public class ModCreativeTab {
 
 			return new ItemStack(ModItems.base_item);
 		}
-		
-		
 
 	};
 

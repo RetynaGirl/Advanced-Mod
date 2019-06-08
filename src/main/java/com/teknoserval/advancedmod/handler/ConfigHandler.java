@@ -38,10 +38,11 @@ public class ConfigHandler {
 
 	private static void loadConfiguration() {
 
-		testValue = configuration.getBoolean("testValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
-		
+		testValue = configuration.getBoolean("testValue", Configuration.CATEGORY_GENERAL, false,
+				"This is an example configuration value");
+
 		testInt = configuration.getInt("testInt", Configuration.CATEGORY_GENERAL, 69, 0, 100, "this is a test int");
-				
+
 		if (configuration.hasChanged()) {
 
 			configuration.save();
@@ -49,7 +50,5 @@ public class ConfigHandler {
 		}
 
 	}
-	
-	
 
 }

@@ -14,24 +14,16 @@ import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
+public class GuiFactory implements IModGuiFactory {
+	@Override
+	public void initialize(Minecraft minecraftInstance) {
 
-public class GuiFactory implements IModGuiFactory
-{
-    @Override
-    public void initialize(Minecraft minecraftInstance)
-    {
+	}
 
-    }
-
-   
-
-    @Override
-    public Set<RuntimeOptionCategoryElement> runtimeGuiCategories()
-    {
-        return null;
-    }
-
-   
+	@Override
+	public Set<RuntimeOptionCategoryElement> runtimeGuiCategories() {
+		return null;
+	}
 
 	@Override
 	public boolean hasConfigGui() {

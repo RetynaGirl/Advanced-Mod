@@ -1,7 +1,7 @@
 package com.teknoserval.advancedmod.reference;
 
 public class Reference {
-	
+
 	public static final String MOD_ID = "advancedmod";
 	public static final String MOD_NAME = "Advanced Mod";
 	public static final String VERSION = "1.12.2-1.0";

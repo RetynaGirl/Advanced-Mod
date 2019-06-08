@@ -10,8 +10,6 @@ public abstract class CommonProxy implements IProxy {
 
 	public void registerItemRenderer(Item item, int i, String string) {
 
-
 	}
-	
-	
+
 }
